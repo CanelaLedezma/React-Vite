@@ -1,0 +1,22 @@
+.cita {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 5px solid #00c4cc;
+}
+
+.cita p {
+  margin: 5px 0;
+}
+
+/* botón eliminar */
+.cita button {
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.cita button:hover {
+  background-color: rgb(155, 32, 155);
+  color: aliceblue;
+}

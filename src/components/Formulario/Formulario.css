@@ -1,0 +1,30 @@
+form, div {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* inputs */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* botón */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #00c4cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #009fa6;
+}

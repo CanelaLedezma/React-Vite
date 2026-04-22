@@ -109,3 +109,29 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* reset básico */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+    125deg,
+    #9a45af,
+    #ff1f7d
+  );
+
+  min-height: 100vh;
+}
+
+/* contenedor principal */
+#center {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* título */
+h1 {
+  text-align: center;
+  color: #333;
+}

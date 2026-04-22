@@ -182,3 +182,12 @@
     border-right-color: var(--border);
   }
 }
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1{
+  color:aliceblue
+}

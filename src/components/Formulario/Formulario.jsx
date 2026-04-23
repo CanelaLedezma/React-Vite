@@ -25,7 +25,25 @@ function Formulario({agregarCita}) {
   };
 
   return (
+    
     <div>
+       <form onSubmit={(e) => {
+    e.preventDefault();
+
+    agregarCita({
+      mascota,
+      dueño,
+      fecha,
+      hora,
+      sintomas
+    });
+
+    setMascota("");
+    setDueño("");
+    setFecha("");
+    setHora("");
+    setSintomas("");
+  }}>
       <input
         type="text"
         placeholder="Mascota"
@@ -58,8 +76,9 @@ function Formulario({agregarCita}) {
         onChange={(e) => setSintomas(e.target.value)}
       ></textarea>
 
-      <button onClick={agregar}>Agregar cita</button>
-    </div>
+<button type="submit">Agregar cita</button> 
+</form>
+</div>
   );
 }
 

@@ -33,8 +33,12 @@ const [citas, setCitas] = useState([
 ]);
   
 const eliminarCita = (index) => {
+  const confirma = window.confirm("¿Queres ELIMINAR esta cita?")
+  if (confirma){
   const nuevasCitas = citas.filter((_, i) => i !== index);
   setCitas(nuevasCitas);
+
+  }
   
 };
 

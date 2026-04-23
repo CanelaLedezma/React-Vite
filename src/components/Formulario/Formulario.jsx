@@ -28,22 +28,9 @@ function Formulario({agregarCita}) {
     
     <div>
        <form onSubmit={(e) => {
-    e.preventDefault();
-
-    agregarCita({
-      mascota,
-      dueño,
-      fecha,
-      hora,
-      sintomas
-    });
-
-    setMascota("");
-    setDueño("");
-    setFecha("");
-    setHora("");
-    setSintomas("");
-  }}>
+  e.preventDefault();
+  agregar();
+}}>
       <input
         type="text"
         placeholder="Mascota"

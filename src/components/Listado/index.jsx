@@ -2,9 +2,11 @@ import Cita from "../Cita/Cita";
 
 const Listado = ({ citas, eliminarCita }) => {
   return (
+    
     <div>
       {citas.map((cita, index) => (
         <Cita
+        key={index}
           mascota={cita.mascota}
           dueño={cita.dueño}
           fecha={cita.fecha}
